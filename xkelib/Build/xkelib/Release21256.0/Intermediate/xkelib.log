@@ -1,0 +1,18 @@
+﻿     0>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Cpp.Platform.Redirect.10.props(23,3): warning MSB4011: "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Xbox 360\Microsoft.Cpp.Xbox 360.default.props" cannot be imported again. It was already imported at "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Cpp.Default.props (113,3)". This is most likely a build authoring error. This subsequent import will be ignored. [C:\Users\Austin\Documents\Visual Studio 2010\Projects\Titan Source - Offline Files\Titan\include\xkelib\xkelib.vcxproj]
+Build started 1/14/2015 1:58:42 PM.
+     1>Project "C:\Users\Austin\Documents\Visual Studio 2010\Projects\Titan Source - Offline Files\Titan\include\xkelib\xkelib.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         del "C:\Users\Austin\Documents\Visual Studio 2010\Projects\Titan Source - Offline Files\Titan\include\xkelib\Build\xkelib\Release21256.0\xkelib.lib" "C:\Users\Austin\Documents\Visual Studio 2010\Projects\Titan Source - Offline Files\Titan\include\xkelib\Build\xkelib\Release21256.0\xkelib.exp"
+         lib /def:kernel\kernelext21256.0.def /def:xam\xamext21256.0.def /MACHINE:PPCBE /OUT:"C:\Users\Austin\Documents\Visual Studio 2010\Projects\Titan Source - Offline Files\Titan\include\xkelib\Build\xkelib\Release21256.0\xkelib.lib"
+         
+         :VCEnd
+         Could Not Find C:\Users\Austin\Documents\Visual Studio 2010\Projects\Titan Source - Offline Files\Titan\include\xkelib\Build\xkelib\Release21256.0\xkelib.lib
+         Microsoft (R) Library Manager Version 10.00.11886.00
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+            Creating library C:\Users\Austin\Documents\Visual Studio 2010\Projects\Titan Source - Offline Files\Titan\include\xkelib\Build\xkelib\Release21256.0\xkelib.lib and object C:\Users\Austin\Documents\Visual Studio 2010\Projects\Titan Source - Offline Files\Titan\include\xkelib\Build\xkelib\Release21256.0\xkelib.exp
+     1>Done Building Project "C:\Users\Austin\Documents\Visual Studio 2010\Projects\Titan Source - Offline Files\Titan\include\xkelib\xkelib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.49
